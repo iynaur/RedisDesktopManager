@@ -88,7 +88,7 @@ unix:macx { # OSX
 }
 
 unix:!macx { # ubuntu & debian
-    CONFIG += static release
+    CONFIG +=  release
     CONFIG -= debug
 
     QTPLUGIN += qsvg qsvgicon
